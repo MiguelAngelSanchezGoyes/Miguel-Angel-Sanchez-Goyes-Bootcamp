@@ -1,0 +1,35 @@
+GET http://localhost:3035/films
+
+###
+
+GET http://localhost:3035/films/61993857a5be6aa27398190e
+
+
+###
+
+POST http://localhost:3035/films
+content-type: application/json
+
+{
+"title": "Good Will Hunting",
+"year": "1997",
+"review": "bad",
+"isViewed": false
+}
+
+###
+
+PATCH  http://localhost:3035/films/61993857a5be6aa27398190e
+content-type: application/json
+
+{
+"review": "Very good",
+"isViewed": true
+}
+
+###
+
+DELETE  http://localhost:3035/films/61993877a5be6aa273981915
+
+
+

@@ -1,0 +1,34 @@
+GET http://localhost:3009/tasks
+
+###
+
+GET http://localhost:3009/tasks/1
+
+###
+
+POST  http://localhost:3009/tasks
+content-Type: application/json
+
+{
+  "learned": "Angular",
+  "dificulty": "?"
+}
+
+###
+
+PATCH   http://localhost:3009/task/
+content-Type: application/json
+
+{
+  "dificulty": "nice"
+}
+
+###
+
+DELETE http://localhost:3009/task/
+
+
+
+
+
+

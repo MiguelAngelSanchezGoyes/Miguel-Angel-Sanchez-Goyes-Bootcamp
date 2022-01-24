@@ -1,0 +1,15 @@
+:root {
+  --color-border: gainsboro;
+  --color-background: ivory;
+  --color-shadow: grey;
+}
+
+.card {
+  padding: 1rem;
+  border: 2px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+  align-items: center;
+}

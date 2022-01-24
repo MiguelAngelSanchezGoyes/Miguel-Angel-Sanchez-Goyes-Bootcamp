@@ -1,0 +1,46 @@
+.heroSearch {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.heroSearch h2 {
+  font-size: 1.2rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.heroSearch label {
+  display: none;
+}
+
+.heroSearch input {
+  width: 100%;
+  max-width: 600px;
+  padding: 0.5rem;
+}
+
+.heroSearch ul {
+  list-style: none;
+  width: 100%;
+  max-width: 600px;
+}
+
+.heroSearch li {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.heroSearch li:hover {
+  background-color: #435a60;
+  color: white;
+}
+
+.heroSearch a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem;
+}

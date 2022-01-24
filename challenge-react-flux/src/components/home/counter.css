@@ -1,0 +1,21 @@
+.counter-buttons {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.counter-buttons__button {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.counter__h3,
+.counter__error {
+  padding: 0.5rem 1rem;
+  background-color: var(--color-background);
+  border: 2px solid var(--color-border);
+  border-radius: 12%;
+  box-shadow: 0.2rem 0.2rem 15px var(--color-shadow);
+}

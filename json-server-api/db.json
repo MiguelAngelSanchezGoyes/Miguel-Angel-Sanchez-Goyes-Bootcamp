@@ -1,0 +1,33 @@
+{
+  "films": [
+    { "id": 1, "year": "2021", "title": "La batalla olvidada" },
+    { "id": 2, "year": "2021", "title": "El viaje" },
+    { "id": 3, "year": "2021", "title": "Distancia de rescate" },
+    { "id": 4, "year": "2021", "title": "Mi hermano, mi hermana" },
+    { "id": 5, "year": "2021", "title": "Hay alguien en tu casa" },
+    { "id": 6, "year": "2021", "title": "Nadie saldrá vivo de aquí" },
+    { "id": 7, "year": "1999", "title": "Matrix" },
+    { "id": 8, "year": "2003", "title": "Big fish" },
+    { "id": 9, "year": "2013", "title": "La grande bellezza" },
+    { "id": 10, "year": "1993", "title": "Jurassic park" },
+    { "id": 11, "year": "1994", "title": "The Shawshank Redemption" },
+    { "id": 12, "year": "1997", "title": "Good Will Hunting" }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "films": [
+    {
+      "id": 5,
+      "year": "2021",
+      "title": "Hay alguien en tu casa",
+      "isViewed": true
+    },
+    {
+      "id": 7,
+      "year": "1999",
+      "title": "Matrix",
+      "isViewed": true
+    },
+    {
+      "id": 8,
+      "year": "2003",
+      "title": "Big fish",
+      "isViewed": false
+    },
+    {
+      "id": 10,
+      "year": "1993",
+      "title": "Jurassic park",
+      "isViewed": true
+    },
+    {
+      "id": 11,
+      "year": "1994",
+      "title": "The Shawshank Redemption",
+      "isViewed": false
+    },
+    {
+      "id": 12,
+      "year": "2021",
+      "title": "The programer",
+      "isViewed": true
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

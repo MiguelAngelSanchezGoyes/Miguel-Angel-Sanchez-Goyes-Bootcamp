@@ -1,0 +1,21 @@
+.tasks-container {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.list-container {
+  list-style: none;
+}
+
+.badget {
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+  border: 1px solid maroon;
+  font-size: 0.8rem;
+}
+
+.task__delete-button {
+  cursor: pointer;
+  color: var(--color-primary);
+  font-weight: 900;
+}

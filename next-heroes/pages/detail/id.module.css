@@ -1,0 +1,41 @@
+.details {
+  width: 100%;
+  max-width: 1000px;
+  margin: 1rem 0;
+}
+
+.title {
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  font-size: 1em;
+  padding: 0.5rem;
+}
+
+.buttonWrapper {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  color: inherit;
+}
+
+.button:hover {
+  background-color: #cfd8dc;
+  color: white;
+}
